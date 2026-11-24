@@ -10,7 +10,8 @@ A modern car listing and dealership web application showcasing vehicles, specs, 
 
 - **24 Nov 2026:** Built the About page featuring the brand story section, company timeline, and founder/team grid.
 
-- **25 Nov 2026:** Built the Models section showcasing the vehicle lineup with detailed car cards, key specifications, pricing, and interactive category filters.
+- **24 Nov 2026:** Built the Models section showcasing the vehicle lineup with detailed car cards, key specifications, pricing, and interactive category filters.
 
-- **26 Nov 2026:** Completed the Models section and am now moving on to build the Comparison section.
+- **24 Nov 2026:** Completed the Models section and am now moving on to build the Comparison section.
 
+- **24 Nov 2026:** Built the Comparison section layout and styled it with CSS; now working on adding the interactive comparison functionality.
