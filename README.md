@@ -12,3 +12,5 @@ A modern car listing and dealership web application showcasing vehicles, specs, 
 
 - **25 Nov 2026:** Built the Models section showcasing the vehicle lineup with detailed car cards, key specifications, pricing, and interactive category filters.
 
+- **26 Nov 2026:** Completed the Models section and am now moving on to build the Comparison section.
+
