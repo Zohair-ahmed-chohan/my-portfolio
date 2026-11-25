@@ -120,3 +120,175 @@ grid.addEventListener("click", (e) => {
 document.getElementById("closeBtn").addEventListener("click", closePopup);
 popup.addEventListener("click", (e) => { if (e.target === popup) closePopup(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closePopup(); });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Compaire Section 
+
+var select1 = document.getElementById("car1-select");
+var select2 = document.getElementById("car2-select");
+var body = document.getElementById("cmp-body");
+
+var compareRows = [
+    ["Price", "price"],
+    ["Engine & Speed", "engine"],
+    ["Gearbox & Drive", "drive"],
+    ["Fuel & Rang","fuel"],
+    ["Warranty", "warranty"],
+    ["Features", "features"]
+];
+
+for (var i = 0; i < cars.length; i++) {
+    select1.add(new Option(cars[i].name, i));
+    select2.add(new Option(cars[i].name, i));
+}
+
+select1.value = 0;
+select2.value = 1;
+
+function updateCompareTable() {
+
+    var car1 = cars[select1.value];
+    var car2 = cars[select2.value];
+
+    document.getElementById("car1-img") .src = car1.img;
+    document.getElementById("car1-img") .alt = car1.name;
+
+    document.getElementById("car2-img") .src = car2.img;
+    document.getElementById("car2-img") .alt = car2.name;
+
+    document.getElementById("car1-name").textContent = car1.name;
+    document.getElementById("car2-name").textContent = car2.name;
+
+    body.innerHTML = "";
+
+    for (var i = 0; i < compareRows.length; i++) {
+
+        var label = compareRows[i][0];
+        var key = compareRows[i][1];
+
+        body.innerHTML += `
+            <tr>
+                <td>${label}</td>
+                <td>${car1[key]}</td>
+                <td>${car2[key]}</td>
+            </tr>
+        `;
+    }
+}
+
+select1.addEventListener("change", updateCompareTable);
+select2.addEventListener("change", updateCompareTable);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
