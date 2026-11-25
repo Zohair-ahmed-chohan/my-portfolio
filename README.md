@@ -15,3 +15,5 @@ A modern car listing and dealership web application showcasing vehicles, specs, 
 - **24 Nov 2026:** Completed the Models section and am now moving on to build the Comparison section.
 
 - **24 Nov 2026:** Built the Comparison section layout and styled it with CSS; now working on adding the interactive comparison functionality.
+
+- **25 Nov 2026:** Completed the Comparison section with interactive vehicle comparison features; moving on to build the Contact Us page as the final step before project submission.
